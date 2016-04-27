@@ -19,6 +19,5 @@ Visual Voicemail
 <gap:plugin name="org.apache.cordova.media" />
 <gap:plugin name="org.apache.cordova.device-orientation" />
 <gap:plugin name="org.apache.cordova.splashscreen" />
-<preference name="SplashScreen" value="screen"/>
 <gap:splash src=“img/splash.png" />
 </widget>
