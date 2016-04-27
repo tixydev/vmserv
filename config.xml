@@ -7,7 +7,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <name short="Voicemail">
 Voicemail
 </name>
-<icon src="img/Icon-App.png" />
+<icon src=“icon.png" />
 <content src="index.html"/>
 <access origin="*"/>
 <gap:platform name="ios"/>
@@ -20,5 +20,7 @@ Voicemail
 <gap:plugin name="org.apache.cordova.media" />
 <gap:plugin name="org.apache.cordova.device-orientation" />
 <gap:plugin name="org.apache.cordova.splashscreen" />
+<preference name="SplashScreen" value="screen"/>
 <gap:splash src=“splash.png" />
+<preference name="SplashScreenDelay" value=“1000” />
 </widget>
