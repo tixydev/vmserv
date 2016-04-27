@@ -8,7 +8,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 Visual Voicemail
 </name>
 <content src="index.html"/>
-<icon src=“img/icon.png” />
+<icon src=“www/img/icon.png” />
 <access origin="*"/>
 <gap:platform name="ios"/>
 <preference name="orientation" value="portrait" />
