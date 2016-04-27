@@ -19,4 +19,8 @@ Voicemail
 <gap:plugin name="org.apache.cordova.device" />
 <gap:plugin name="org.apache.cordova.media" />
 <gap:plugin name="org.apache.cordova.device-orientation" />
+<gap:plugin name="org.apache.cordova.splashscreen" />
+<preference name="SplashScreen" value="screen"/>
+<gap:splash src=“splash.png" />
+<preference name="SplashScreenDelay" value=“1000” />
 </widget>
