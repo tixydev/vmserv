@@ -7,7 +7,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <name short="Voicemail">
 Voicemail
 </name>
-<icon src=“icon.png" />
+<icon src=“img/icon.png" />
 <content src="index.html"/>
 <access origin="*"/>
 <gap:platform name="ios"/>
