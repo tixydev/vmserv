@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+xmlns:gap="http://phonegap.com/ns/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.tixy.vmservice"
+>
+<name short="Voicemail">
+Visual Voicemail
+</name>
+<content src="index.html"/>
+<access origin="*"/>
+<gap:platform name="ios"/>
+<preference name="orientation" value="portrait" />
+<preference name="android-MediaPlaybackRequiresUserAction" value="false" />
+<preference name="android-AllowInlineMediaPlayback" value="true" />
+<feature name="http://api.phonegap.com/1.0/device" />
+<feature name="http://api.phonegap.com/1.0/media" />
+<gap:plugin name="org.apache.cordova.device" />
+<gap:plugin name="org.apache.cordova.media" />
+<gap:plugin name="org.apache.cordova.device-orientation" />
+</widget>
