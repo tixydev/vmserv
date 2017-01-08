@@ -16,7 +16,7 @@ Voicemail
 <preference name="android-AllowInlineMediaPlayback" value="true" />
 <feature name="http://api.phonegap.com/1.0/device" />
 <feature name="http://api.phonegap.com/1.0/media" />
-<plugin name="org.apache.cordova.device" source="pgb" spec="0.3.0" />
-<plugin name="org.apache.cordova.device-orientation" source="pgb" spec="0.3.11" />
-<plugin name="org.apache.cordova.media" source="pgb" spec="0.2.16" />
+<plugin name="org.apache.cordova.device" />
+<plugin name="org.apache.cordova.device-orientation" />
+<plugin name="org.apache.cordova.media" />
 </widget>
